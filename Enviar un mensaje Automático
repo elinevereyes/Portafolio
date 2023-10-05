@@ -1,0 +1,36 @@
+
+#Todos paquetes que debemos importar para poder utilizarlo mas adelante
+
+import os
+import pyautogui
+import time
+import pyautogui
+from pywinauto.application import Application
+import pywinauto.mouse as mouse
+from pywinauto import Desktop
+
+
+mouse.click(coords=(710, 1056)) #Click a Chrome
+time.sleep(5)
+mouse.click(coords=(105, 13)) #Click a la primera ventana de Chrome
+time.sleep(5)
+mouse.click(coords=(329, 308)) #Click al segundo chat-Edesur
+time.sleep(5)
+pyautogui.write("2")
+pyautogui.press('enter')
+time.sleep(5)
+pyautogui.write("8")
+pyautogui.press('enter')
+
+time.sleep(3)
+
+pyautogui.write("Me gustaría saber si pasaran hoy, tengo ya 3 dias sin energía electrica")
+pyautogui.press('enter')
+
+time.sleep(2)
+pyautogui.write("Mi contrato es el 7346510")
+pyautogui.press('enter')
+pyautogui.write("El contrato esta a mi nombre: Elin Rafael Eve Reyes")
+pyautogui.press('enter')
+pyautogui.write("La direccion del contrato es: C/ LOS BEISBOLISTAS #21, Balcones del Oeste, Edificio H, Apto. 403")
+pyautogui.press('enter')
