@@ -1,4 +1,3 @@
-
 #Todos paquetes que debemos importar para poder utilizarlo mas adelante
 
 import os
@@ -14,9 +13,9 @@ mouse.click(coords=(710, 1056)) #Click a Chrome
 time.sleep(5)
 mouse.click(coords=(105, 13)) #Click a la primera ventana de Chrome
 time.sleep(5)
-mouse.click(coords=(329, 308)) #Click al segundo chat-Edesur
+mouse.click(coords=(329, 308)) #Click al segundo chat "El chat lo fije para que siempre este en el mismo lugar" 
 time.sleep(5)
-pyautogui.write("2")
+pyautogui.write("2") 
 pyautogui.press('enter')
 time.sleep(5)
 pyautogui.write("8")
